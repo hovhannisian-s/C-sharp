@@ -7,7 +7,7 @@ class Program
     {
         Console.WriteLine("=== MyList<T> Testing ===");
 
-        // 1️⃣ Ստեղծում և Add
+        // 1️⃣ Add
         MyList<int> list = new MyList<int>();
         list.Add(10);
         list.Add(20);
@@ -102,3 +102,4 @@ class Program
         Console.WriteLine("=== MyList<T> Test Finished ===");
     }
 }
+
